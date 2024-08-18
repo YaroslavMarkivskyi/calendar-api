@@ -25,7 +25,7 @@ The calendar feature provides functionality to manage and view events based on d
 - **Monthly Events:** `/api/events/month/`
 - **Yearly Events:** `/api/events/year/`
 - **Create Event:** `/api/events/create/`
-- **Delete/Retrieve Event:** `/api/events/<uuid:id>/`
+- **Retrieve, Update & Delete Event:** `/api/events/<uuid:id>/`
 
 #### API Documentation
 - **Redoc Documentation:** `/redoc/`
