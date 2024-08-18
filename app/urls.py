@@ -29,9 +29,9 @@ from rest_framework import permissions
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Authors Haven API",
+        title="Calendar Api",
         default_version="v1",
-        description="API endpoints for Authors Haven API Course",
+        description="API endpoints for Calendar",
         contact=openapi.Contact(email="api.imperfect@gmail.com"),
         license=openapi.License(name="MIT License"),
     ),
@@ -45,4 +45,5 @@ urlpatterns = [
     path("redoc/", schema_view.with_ui("redoc", cache_timeout=0)),
     # User-related API endpoints
     path("api/user/", include("core_apps.users.urls")),
+    path("api/events/", include("core_apps.events.urls")),
 ]

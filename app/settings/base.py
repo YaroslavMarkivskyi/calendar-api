@@ -34,7 +34,6 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "core_apps.users",
     "core_apps.events",
-    "core_apps.calendar",
 ]
 
 INSTALLED_APPS = LOCAL_APPS + DJANGO_APPS + THIRD_PARTY_APPS
